@@ -309,6 +309,39 @@ header {
 }
 
 footer {
+  background: #020617;
+  padding: 60px 5% 30px;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.footer-content p {
+  color: var(--muted);
+}
+
+.social {
+  margin: 20px 0;
+}
+
+.social a {
+  color: var(--white);
+  font-size: 1.8rem;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.social a:hover {
+  color: var(--secondary);
+}
+
+.copy {
+  margin-top: 20px;
+  color: var(--muted);
+  font-size: 0.9rem;
 }
 
 @media (max-width: 900px) {
