@@ -26,7 +26,13 @@ body {
 }
 
 header {
-  
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(10px);
+
 }
 
 .navbar {
